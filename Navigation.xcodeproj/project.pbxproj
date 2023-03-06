@@ -11,6 +11,16 @@
 		23EA126129B4E10B00BDE040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA126029B4E10B00BDE040 /* ContentView.swift */; };
 		23EA126329B4E10D00BDE040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EA126229B4E10D00BDE040 /* Assets.xcassets */; };
 		23EA126629B4E10D00BDE040 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EA126529B4E10D00BDE040 /* Preview Assets.xcassets */; };
+		23EA126D29B4E1A800BDE040 /* ProgrammaticNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA126C29B4E1A800BDE040 /* ProgrammaticNavigation.swift */; };
+		23EA126F29B4E99000BDE040 /* PathBindingInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA126E29B4E99000BDE040 /* PathBindingInNavigationStack.swift */; };
+		23EA127129B4F75D00BDE040 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA127029B4F75D00BDE040 /* AppState.swift */; };
+		23EA127329B4F93A00BDE040 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA127229B4F93A00BDE040 /* DetailView.swift */; };
+		23EA127529B4F97600BDE040 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA127429B4F97600BDE040 /* Movie.swift */; };
+		23EA127729B4FA0300BDE040 /* GlobalPathStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA127629B4FA0300BDE040 /* GlobalPathStackView.swift */; };
+		23EA129529B5BFCA00BDE040 /* NavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA129429B5BFC900BDE040 /* NavigationPathView.swift */; };
+		23EA129729B5C1FE00BDE040 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA129629B5C1FE00BDE040 /* Actor.swift */; };
+		23EA129929B5C47E00BDE040 /* NavigationSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA129829B5C47E00BDE040 /* NavigationSplit.swift */; };
+		23EA129B29B5DC6B00BDE040 /* NavStackInNavSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA129A29B5DC6B00BDE040 /* NavStackInNavSplitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		23EA126029B4E10B00BDE040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23EA126229B4E10D00BDE040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EA126529B4E10D00BDE040 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23EA126C29B4E1A800BDE040 /* ProgrammaticNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigation.swift; sourceTree = "<group>"; };
+		23EA126E29B4E99000BDE040 /* PathBindingInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathBindingInNavigationStack.swift; sourceTree = "<group>"; };
+		23EA127029B4F75D00BDE040 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		23EA127229B4F93A00BDE040 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		23EA127429B4F97600BDE040 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		23EA127629B4FA0300BDE040 /* GlobalPathStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalPathStackView.swift; sourceTree = "<group>"; };
+		23EA129429B5BFC900BDE040 /* NavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathView.swift; sourceTree = "<group>"; };
+		23EA129629B5C1FE00BDE040 /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		23EA129829B5C47E00BDE040 /* NavigationSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplit.swift; sourceTree = "<group>"; };
+		23EA129A29B5DC6B00BDE040 /* NavStackInNavSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackInNavSplitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,18 @@
 		23EA125D29B4E10B00BDE040 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				23EA127029B4F75D00BDE040 /* AppState.swift */,
 				23EA125E29B4E10B00BDE040 /* NavigationApp.swift */,
 				23EA126029B4E10B00BDE040 /* ContentView.swift */,
+				23EA126C29B4E1A800BDE040 /* ProgrammaticNavigation.swift */,
+				23EA126E29B4E99000BDE040 /* PathBindingInNavigationStack.swift */,
+				23EA127629B4FA0300BDE040 /* GlobalPathStackView.swift */,
+				23EA129429B5BFC900BDE040 /* NavigationPathView.swift */,
+				23EA129829B5C47E00BDE040 /* NavigationSplit.swift */,
+				23EA129A29B5DC6B00BDE040 /* NavStackInNavSplitView.swift */,
+				23EA129629B5C1FE00BDE040 /* Actor.swift */,
+				23EA127229B4F93A00BDE040 /* DetailView.swift */,
+				23EA127429B4F97600BDE040 /* Movie.swift */,
 				23EA126229B4E10D00BDE040 /* Assets.xcassets */,
 				23EA126429B4E10D00BDE040 /* Preview Content */,
 			);
@@ -137,8 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EA127529B4F97600BDE040 /* Movie.swift in Sources */,
 				23EA126129B4E10B00BDE040 /* ContentView.swift in Sources */,
+				23EA127329B4F93A00BDE040 /* DetailView.swift in Sources */,
+				23EA127729B4FA0300BDE040 /* GlobalPathStackView.swift in Sources */,
+				23EA129529B5BFCA00BDE040 /* NavigationPathView.swift in Sources */,
+				23EA127129B4F75D00BDE040 /* AppState.swift in Sources */,
+				23EA126D29B4E1A800BDE040 /* ProgrammaticNavigation.swift in Sources */,
+				23EA126F29B4E99000BDE040 /* PathBindingInNavigationStack.swift in Sources */,
 				23EA125F29B4E10B00BDE040 /* NavigationApp.swift in Sources */,
+				23EA129B29B5DC6B00BDE040 /* NavStackInNavSplitView.swift in Sources */,
+				23EA129929B5C47E00BDE040 /* NavigationSplit.swift in Sources */,
+				23EA129729B5C1FE00BDE040 /* Actor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
